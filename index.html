@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Quizlet</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+<body class="container">
+	<header class="page-header">
+		<h1>Quizlet</h1>
+    </header>
+	<div>
+		
+		<table class="table table-hover">
+			<thead>
+				<tr>
+					<th>
+						<span id="question">Question</span>
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><span class="choices" id="1">Choice 1</span></td>
+				</tr>
+				<tr>
+					<td><span class="choices" id="2">Choice 2</span></td>
+				</tr>
+				<tr>
+					<td><span class="choices" id="3">Choice 3</span></td>
+				</tr>
+				<tr>
+					<td><span class="choices" id="4">Choice 4</span></td>
+				</tr>
+			</tbody>
+		</table>
+		<button class="btn btn-primary btn-block" id="nextBtn">Next</button>
+		<button class="btn" id="backBtn">Back</button>
+		<button class="btn" id="forwardBtn">Forward</button>
+	</div>
+
+	<script type="text/javascript" src="scripts/jquery-2.1.0.min.js"></script>
+	<script type="text/javascript" src="scripts/app.js"></script>
+</body>
+</html>
