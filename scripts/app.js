@@ -3,7 +3,6 @@
 
 /* Todo: Need to refactor da code, 
 	cache jQuery objects
-	Turn Function expressions into functions
 	Objectify the Quiz, sexy.
 	reduce number of variables
 Prevent errors if JSON isn't loaded/fails,
